@@ -1,0 +1,274 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: #4867AA;
+    width: 100%;
+}
+
+#navbar {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 4.9rem;
+}
+
+#navbar img {
+    height: 4.75rem;
+    flex-basis: 60%;
+}
+
+#navbar form{
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#navbar form label {
+    display: block;
+}
+
+#navbar form input {
+    margin: 6px 0;
+    background-color: #FFFFFF;
+}
+
+/* #navbar #email {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#navbar #email input {
+background-color: #FFFFFF;
+}
+
+#navbar #email label {
+    margin-bottom: 5px;
+} */
+
+/* #navbar #password p {
+    margin: 0;
+    font-size: 12px;  
+} */
+
+/* #navbar #password a {
+    color: #9CB4DB;
+    text-decoration: none;
+} */
+
+/* #navbar #password a:hover {
+    text-decoration: underline;
+} */
+
+#navbar form input {
+    width: 9rem;
+}
+
+#navbar form button {
+    width: 3rem;
+    padding: 2px 1.5px;
+    background-color: #4267B2;
+    border: 1px solid black;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+#navbar form button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#navbar form button:hover {
+    background-color: #4867AA;
+}
+
+.wrapper {
+    background: linear-gradient(to top, #D3D8E8 0%, #FFFFFF 100%);
+    /* border-bottom: 1px solid red; */
+}
+
+.main {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.main #left {
+    /* flex-basis: 500px; */
+    padding: 1.5rem 0 4rem 2rem;
+}
+
+.main #right {
+    flex-basis: 40%;
+}
+
+.main #left h3 {
+    padding-right: 4rem;
+    line-height: 2rem;
+    color: #0E385F;
+}
+
+.main #right h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.main #right p {
+    font-size: 19px;
+    color: #1D2129;
+    margin-top: 0;
+}
+
+ #right label:not([for="Gender"]) {
+    margin-bottom: 7px;
+}
+
+.main #right #log-in {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px 0;
+    width: 400px;
+}
+
+.main #right #fullname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main #right #fullname input {
+    height: 38px;
+    width: 190px;
+    border: 1px solid #79ADDB;
+    border-radius: 5%;
+    padding: 3px 8px;
+}
+
+.main #right #log-in input {
+    height: 35px;
+    width: 398px;
+    border: 1px solid #79ADDB;
+    border-radius: 5%;
+    padding: 3px 8px;
+}
+
+.main #right .status {
+    font-size: 16px;
+    color: #9B9FA6;
+    margin-top: 5px;
+}
+
+.main #right select {
+    height: 25px;
+    border: 1px solid #79ADDB;
+    margin-bottom: 5px;
+}
+
+.main #right .policy {
+    font-size: 11px;
+    margin: 15px 80px 5px 0;
+    line-height: 13px;
+    color: #9B9FA6;
+}
+
+.main #right a {
+    text-decoration: none;
+    color: #4867AA;
+}
+
+.main #right a:hover {
+    text-decoration: underline;
+}
+
+.main #right button {
+    background-color: #69A74E;
+    padding: 10px 60px;
+    margin: 15px 0;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    outline: none;
+    /* cursor: pointer; */
+}
+
+.main #right button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.main #right button a:hover {
+    text-decoration: none;
+}
+
+.main #right .create-page {
+    font-size: 13px;
+    color: #9B9FA6;
+    margin-top: 25px;
+}
+
+footer {
+    width: 100%;
+    font-size: 12px;
+    color: #4867AA;
+    background-color: white;
+    padding-top: 40px;
+}
+
+footer #wrapper {
+    margin: 0 auto;
+    width: 60%;
+}
+
+footer #wrapper .language {
+    margin-bottom: 5px;
+}
+
+footer #wrapper .other {
+    border-top: 1px solid #d6cccc;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0px;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 3px 20px 3px 0;
+    display: inline-block;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #4867AA;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    padding-bottom: 30px;
+}
+
